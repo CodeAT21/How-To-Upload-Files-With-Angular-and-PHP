@@ -1,0 +1,5 @@
+ <div class="forms">
+  <h6 class="text-primary" align="center">Image Upload With Angular And PHP</h6>
+  <input  (change)="onFileChange($event)"  id="file" type="file">         
+  <button [disabled]="!status"class="btn btn-primary" type="submit" (click)="submit()">Upload</button>
+</div>
